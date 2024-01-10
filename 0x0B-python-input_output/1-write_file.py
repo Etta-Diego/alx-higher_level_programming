@@ -4,6 +4,8 @@
          function that writes a string to a text file
          (UTF8) and returns the number of characters written
 """
+
+
 def write_file(filename="", text=""):
     """
     args:
@@ -13,5 +15,5 @@ def write_file(filename="", text=""):
         length of the text written
     """
     with open(filename, "w", encoding="utf8") as f:
-            f.write(text)
-            return len(text)
+        f.write(text)
+        return len(text)
