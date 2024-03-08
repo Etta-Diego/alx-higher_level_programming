@@ -2,4 +2,4 @@
 -- from the database hbtn_0c_0 in the MySQL server.
 
 SELECT *
-FROM fiist_table;
+FROM first_table;
