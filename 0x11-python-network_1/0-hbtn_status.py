@@ -4,6 +4,6 @@ import urllib.request
 with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as feedback:
     hypertext = feedback.read()
 print("Body response:")
-print("\t- type: ", type(hypertext))
+print("\t- type:", type(hypertext))
 print("\t- content:", hypertext)
-print("\t- utf8 content: ", hypertext.decode("utf-8"))
+print("\t- utf8 content:", hypertext.decode("utf-8"))
